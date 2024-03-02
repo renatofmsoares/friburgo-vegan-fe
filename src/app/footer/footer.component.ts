@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   template: `
     <footer class="footer-section">
       <div class="footer-container container">
-        <img src="/assets/images/logo-cinza.png" width="43" alt="" class="footer-logo"/>
+        <img src="assets/images/logo-cinza.png" width="43" alt="" class="footer-logo"/>
         <p class="footer-text">
           Em desenvolvimento, por Renato Soares
         </p>
