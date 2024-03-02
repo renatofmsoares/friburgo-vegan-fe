@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [ContactOptionsComponent],
   template: `
-    <section class="contact-options-section">
+    <section class="contact-options-section" style="background-image: linear-gradient(whitesmoke, rgba(130, 130, 130, 0.9) 100%, black), url('assets/images/footer-bg.jpg')">
       <div class="contact-options-container container">
         <h2>Entre em contato</h2>
         <div class="divider gray-bg"></div>

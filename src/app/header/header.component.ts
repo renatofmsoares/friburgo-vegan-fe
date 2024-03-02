@@ -6,7 +6,7 @@ import { AppComponent } from '../app.component';
   standalone: true,
   imports: [AppComponent, HeaderComponent],
   template: `
-    <div class="header-section">
+    <div class="header-section" style="background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('assets/images/landscape-cow-and-pigs.jpg')">
       <div class="header-container container">
         <h1 class="header-title">
           Comunidade Vegan <br/> de Nova Friburgo - RJ
