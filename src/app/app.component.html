@@ -1,50 +1,10 @@
 <body>
-  <div class="navbar-section section">
-    <div class="navbar-container section-container">
-      <a href="#" class="brand-block nav-brand">
-        <img
-          src="assets/images/logo.png"
-          width="65"
-          alt="Logomarca da comunidade Friburgo Vegan"
-          class="logo-img"
-        />
-        <h1 class="logo-title">
-          FRIBURGO VEGAN
-        </h1>
-      </a>
-      <nav class="nav-menu">
-        @for (item of [
-          { title: 'OBJETIVO', link: '#' },
-          { title: 'AÇÕES', link: '#' },
-          { title: 'APOIO', link: '#' },
-          { title: 'RIFAS', link: '#' },
-        ]; track item.title) {
-          <a class="nav-link" [href]="item.link">
-            <span>{{ item.title }}</span>
-          </a>
-        }
-      </nav>
-      <div class="menu-button">
-        <div class="icon-nav-menu"></div>
-      </div>
-    </div>
-  </div>
-  <div class="header-section">
-    <div class="header-container section-container">
-      <h1 class="header-title">
-        Comunidade Vegan <br/> de Nova Friburgo - RJ
-      </h1>
-      <div class="divider"></div>
-      <div class="header-subtitle">
-        Você é simpatizante da causa animal, gostaria de se informar mais a
-        respeito ou está iniciando no veganismo?<br/>Seja bem-vindo(a)! Entre em contato e vamos avançar juntos nesse
-        processo!
-      </div>
-    </div>
-  </div>
+  <app-navbar></app-navbar>
+  <app-header></app-header>
 
-  <div class="about-section">
-    <div class="about-container section-container">
+
+  <section class="about-section">
+    <div class="about-container container">
       <p class="about-text">
         Definição de veganismo cunhada pela <strong>The Vegan Society</strong>:<br/>‍<br/>"O veganismo é uma filosofia e um modo de vida que procura excluir –
         <strong>tanto quanto possível e praticável</strong>
@@ -63,9 +23,9 @@
         >Entre em contato!</a
       >
     </div>
-  </div>
-  <div class="contact-section section">
-    <div class="contact-container section-container">
+  </section>
+  <section class="contact-section">
+    <div class="contact-container container">
       <h2>Entre em contato</h2>
       <div class="divider gray-bg"></div>
       <div class="contact-options-container">
@@ -131,11 +91,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
 
-  <footer class="footer-section section">
-    <div class="footer-container section-container">
+  <footer class="footer-section">
+    <div class="footer-container container">
       <img src="assets/images/logo-cinza.png" width="43" alt="" class="footer-logo"/>
       <p class="footer-text">
         Em desenvolvimento, por Renato Soares
