@@ -21,7 +21,8 @@
     margin-left: 0px
     margin-right: 0px
     display: flex
-    align-items: center
+    flex-wrap: wrap
+    align-items: top
     justify-content: space-around
 
   .contact-option-wrapper
@@ -30,7 +31,11 @@
     min-height: 1px
     padding-left: 10px
     padding-right: 10px
-    width: 30%
+    padding-bottom: 30px
+    width: 180px
+
+    @media screen and ( max-width: 400px )
+      width: 100%
 
     h3
       margin: 0px 0px 20px
@@ -49,7 +54,7 @@
       text-decoration: none
 
     .icon-wrapper
-      height: 95px
+      height: 70px
       margin-bottom: 10px
       padding-top: 13px
 
@@ -58,8 +63,7 @@
       max-width: 100%
       display: block
       margin-bottom: 11px
-      margin-left: 33%
-      text-align: left
+      text-align: center
       text-decoration: none
 
       img
@@ -74,3 +78,5 @@
         font-size: 17px
         text-align: left
         display: inline-block
+
+

@@ -24,21 +24,6 @@ import { Component } from '@angular/core';
 
           <div class="contact-option-wrapper">
             <div class="icon-wrapper">
-              <img src="assets/images/mail-icon.png"
-                width="70" />
-            </div>
-            <h3>Por email</h3>
-            <p class="contact-text">
-              <a href="mailto:friburgovegan@gmail.com?subject=Olá!"
-                target="_blank"
-                class="link"
-                >friburgovegan&#64;gmail.com<br/>
-              </a>
-            </p>
-          </div>
-
-          <div class="contact-option-wrapper">
-            <div class="icon-wrapper">
               <img
                 src="assets/images/heart-icon.png"
                 width="68"
@@ -69,6 +54,21 @@ import { Component } from '@angular/core';
                 width="14" class="social-icon"/>
               <div class="social-link-text">WhatsApp</div>
             </a>
+          </div>
+
+          <div class="contact-option-wrapper">
+            <div class="icon-wrapper">
+              <img src="assets/images/mail-icon.png"
+                width="70" />
+            </div>
+            <h3>Por email</h3>
+            <p class="contact-text">
+              <a href="mailto:friburgovegan@gmail.com?subject=Olá!"
+                target="_blank"
+                class="link"
+                >friburgovegan&#64;gmail.com<br/>
+              </a>
+            </p>
           </div>
         </div>
       </div>

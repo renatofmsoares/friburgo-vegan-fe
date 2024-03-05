@@ -26,7 +26,7 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "sass",
             "assets": [
-              "src/favicon.ico",
+              "src/favicon-friburgovegan.ico",
               "src/assets"
             ],
             "styles": [
@@ -91,7 +91,7 @@
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "sass",
             "assets": [
-              "src/favicon.ico",
+              "src/favicon-friburgovegan.ico",
               "src/assets"
             ],
             "styles": [
@@ -107,6 +107,11 @@
           }
         }
       }
+    }
+  },
+  "cli": {
+    "cache": {
+      "enabled": false
     }
   }
 }
